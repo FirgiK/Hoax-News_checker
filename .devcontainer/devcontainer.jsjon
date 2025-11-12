@@ -1,0 +1,4 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/dotnet:latest",
+  "postCreateCommand": "sudo rm /usr/share/dotnet/tools/mlnet && dotnet tool install -g mlnet"
+}
